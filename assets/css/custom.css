@@ -14,17 +14,18 @@
 
 .float{
 	position:fixed;
-	bottom:40px;
-	right:40px;
+	bottom:10px;
+	left:20px;
 	background-color:#0C9;
 	color:#FFF;
     text-align:center;
     border-radius: 50px;
-	box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 9999;
 }
 
 .fab-text{
-    padding-top: 5px;
+    padding-top: 8px;
 	font-size: 18px;
 }
 
@@ -32,4 +33,19 @@
     .logo {
         width: 100px;
     }
+
+    .fab-icon{
+        font-size: 32px;
+    }
+
+    .fab-text{
+        padding-top: 2px;
+    }
+
+    .fab button {
+        padding-top: unset;
+        padding-left: 20px;
+    }
+
+
   }
